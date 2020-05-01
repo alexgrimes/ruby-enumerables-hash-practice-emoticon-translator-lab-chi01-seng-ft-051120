@@ -47,7 +47,7 @@ def get_japanese_emoticon(lib, eng_emo)
   end
   "Sorry, that emoticon was not found"
 end
-binding.pry 
+#binding.pry 
 def get_english_meaning(lib, jap_emo)
   translated_hash = load_library(lib)
   translated_hash.each do |emo_name, emo_hash|
